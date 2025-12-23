@@ -4,4 +4,5 @@
 
 ## Запуск теста
 1. Установите зависимости: `pip install pytest requests`
-2. Запустите тест: `pytest test_order_api.py -v`
+
+2. Запустите тест: `python test.py`
