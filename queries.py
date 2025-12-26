@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "https://f4d80519-59eb-44cc-b9cd-74758965ee0c.serverhub.praktikum-services.ru"
+BASE_URL = "https://75e400af-eab2-4f7a-84c5-2ed036230b08.serverhub.praktikum-services.ru/"
 
 def create_order(data):
     return requests.post(f"{BASE_URL}/api/v1/orders", json=data)
@@ -15,4 +15,5 @@ def delete_order(order_id):
     return requests.delete(f"{BASE_URL}/api/v1/orders/{order_id}")
 
 def get_all_orders():
+
     return requests.get(f"{BASE_URL}/api/v1/orders")
